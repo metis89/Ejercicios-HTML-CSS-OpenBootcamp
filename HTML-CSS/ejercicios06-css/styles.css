@@ -1,11 +1,18 @@
 .galeria {
     display: flex;
     flex-wrap: wrap;
-    /*opcional*/
     justify-content: space-around;
-    align-items: center;
+    padding: 5px;
+    height: 400px;
 }
 
 img {
     width: 300px;
+    padding: 15px;
+}
+
+/* Opcional */
+img:hover {
+	opacity: 0.5;
+    cursor: pointer;
 }
