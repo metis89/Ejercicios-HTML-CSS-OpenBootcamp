@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos de Interés en Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class="container" style="width: 50rem;">
+    <div class="mt-3 bg-light p-5 rounded-3 border border-secondary">
+        <h1 class="display-6 fw-bold">Esto es un Jumbotron</h1>
+        <p class="fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia dicta, nisi ex nesciunt laboriosam veritatis aspernatur minima rerum error explicabo vitae similique aperiam, voluptas accusantium id tenetur et at unde.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-ejemplo">Botón modal</button>
+    
+        <div class="modal fade" id="modal-ejemplo">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Primer modal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Esto es la información del modal.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+    </div>
+
+  <div class="container mt-3 bg-info p-4 rounded" style="width: 50rem;">
+  <form class="action">
+    <div class="mb-3">
+      <label for="nombre" class="form-label">Nombre y Apellidos</label>
+      <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlImput1" class="form-label">Teléfono</label>
+      <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="+34">
+    </div>
+    <div class="mb-3">
+      <label for="mensaje" class="form-label">Mensaje</label>
+      <input type="text" class="form-control" id="mensaje" style="height:100px " placeholder="Deja un mensaje aquí" >
+    </div>
+  </form>
+  </div>
+
+<div class="container m-3">
+  <div class="card" style="width: 25rem;">
+    <div class="card-body">
+      <h5 class="card-title fw-bold">Sofia Hudson</h5>
+      <p class="card-text">Soy estudiante de programación y espero encontrar un trabajo de ello pronto con el que asentar mis conocimientos.</p>
+      <div class="card-footer">sofia-sama@hotmail.com</div>
+    </div>
+  </div>
+</div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+</body>
+</html>
